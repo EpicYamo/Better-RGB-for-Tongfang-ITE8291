@@ -1,0 +1,4 @@
+#include <winuser.h>
+#include "resource.h"
+1 CREATEPROCESS_MANIFEST_RESOURCE_ID MOVEABLE PURE "app.manifest"
+IDI_APPICON ICON "app.ico"
