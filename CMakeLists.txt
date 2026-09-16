@@ -11,6 +11,7 @@ endif()
 add_executable(better-rgb WIN32
     src/main.c
     resources/resource.rc
+	src/keymap.c
 )
 
 target_include_directories(better-rgb PRIVATE resources)
