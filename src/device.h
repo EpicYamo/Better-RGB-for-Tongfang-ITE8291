@@ -11,8 +11,6 @@ extern hid_device			*g_h;
 extern CRITICAL_SECTION		g_deviceLock;
 extern char					g_devicePath[512];
 extern const GUID			GUID_DEVINTERFACE_HID_LOCAL;
-
-//maybe move ltr to effects
 extern volatile LONG		g_brightness;
 
 int		resolve_device_path(void);

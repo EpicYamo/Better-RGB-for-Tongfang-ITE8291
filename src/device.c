@@ -8,7 +8,6 @@
 hid_device			*g_h = NULL;
 CRITICAL_SECTION	g_deviceLock;
 char				g_devicePath[512] = "";
-volatile LONG		g_brightness = 100;
 
 const GUID	GUID_DEVINTERFACE_HID_LOCAL =
 	{0x4D1E55B2, 0xF16F, 0x11CF, {0x88, 0xCB, 0x00, 0x11, 0x11, 0x00, 0x00, 0x30}};
