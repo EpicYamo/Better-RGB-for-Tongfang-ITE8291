@@ -10,5 +10,6 @@ DWORD WINAPI	effect_lightning(LPVOID p);
 DWORD WINAPI	effect_flame(LPVOID p);
 DWORD WINAPI	effect_rain(LPVOID p);
 DWORD WINAPI	effect_matrix(LPVOID p);
+DWORD WINAPI	effect_static(LPVOID p);
 
 #endif
