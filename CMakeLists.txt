@@ -19,9 +19,10 @@ add_executable(better-rgb WIN32
 	resources/resource.rc
 	src/config.c
 	src/effects/effect_common.c
+	src/effects/effect_breathing.c
 )
 
-target_include_directories(better-rgb PRIVATE resources)
+target_include_directories(better-rgb PRIVATE resources src)
 
 target_compile_definitions(better-rgb PRIVATE UNICODE _UNICODE _WIN32_WINNT=0x0A00)
 

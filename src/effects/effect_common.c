@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include "effect_common.h"
 
+volatile LONG	g_stopFlag = 0;
+HANDLE			g_effectThread = NULL;
+
 void	hsv_to_rgb(double h, unsigned char *r, unsigned char *g, unsigned char *b)
 {
 	double	c;
