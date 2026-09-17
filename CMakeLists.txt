@@ -18,6 +18,7 @@ add_executable(better-rgb WIN32
 	src/device.c
 	resources/resource.rc
 	src/config.c
+	src/effects/effect_common.c
 )
 
 target_include_directories(better-rgb PRIVATE resources)

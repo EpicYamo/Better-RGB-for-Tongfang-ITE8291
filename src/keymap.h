@@ -14,6 +14,7 @@ typedef struct
 extern const KeyEntry	KEYMAP[];
 extern const size_t	KEYMAP_COUNT;
 
-int	vk_to_keymap_index(int vk);
+int		vk_to_keymap_index(int vk);
+double	get_key_x(const KeyEntry *k);
 
 #endif
