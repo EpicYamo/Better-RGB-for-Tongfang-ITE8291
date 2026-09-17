@@ -22,6 +22,7 @@ add_executable(better-rgb WIN32
 	src/effects/effect_breathing.c
 	src/effects/effect_wave.c
 	src/effects/effect_wheel.c
+	src/effects/effect_lightning.c
 )
 
 target_include_directories(better-rgb PRIVATE resources src)
