@@ -25,6 +25,7 @@ add_executable(better-rgb WIN32
 	src/effects/effect_lightning.c
 	src/effects/effect_flame.c
 	src/effects/effect_rain.c
+	src/effects/effect_matrix.c
 )
 
 target_include_directories(better-rgb PRIVATE resources src)
