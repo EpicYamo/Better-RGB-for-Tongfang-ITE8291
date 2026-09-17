@@ -31,9 +31,10 @@ add_executable(better-rgb WIN32
 	src/effects/effect_reactive.c
 	src/effects/effects.c
 	src/ui/ui_draw.c
+	src/ui/ui_panels.c
 )
 
-target_include_directories(better-rgb PRIVATE resources src)
+target_include_directories(better-rgb PRIVATE resources src src/effects)
 
 target_compile_definitions(better-rgb PRIVATE UNICODE _UNICODE _WIN32_WINNT=0x0A00)
 
