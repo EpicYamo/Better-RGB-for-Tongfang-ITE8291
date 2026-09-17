@@ -12,5 +12,6 @@ DWORD WINAPI	effect_rain(LPVOID p);
 DWORD WINAPI	effect_matrix(LPVOID p);
 DWORD WINAPI	effect_static(LPVOID p);
 DWORD WINAPI	effect_sparkle(LPVOID p);
+DWORD WINAPI	effect_reactive(LPVOID p);
 
 #endif

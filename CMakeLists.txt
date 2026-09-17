@@ -28,6 +28,7 @@ add_executable(better-rgb WIN32
 	src/effects/effect_matrix.c
 	src/effects/effect_static.c
 	src/effects/effect_sparkle.c
+	src/effects/effect_reactive.c
 )
 
 target_include_directories(better-rgb PRIVATE resources src)
