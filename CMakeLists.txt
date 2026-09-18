@@ -47,3 +47,7 @@ target_link_libraries(better-rgb PRIVATE
 	hid
 	comctl32
 )
+
+if(MINGW)
+	target_link_options(better-rgb PRIVATE -static -static-libgcc)
+endif()
