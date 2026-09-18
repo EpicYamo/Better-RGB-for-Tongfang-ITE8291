@@ -33,6 +33,7 @@ add_executable(better-rgb WIN32
 	src/ui/ui_draw.c
 	src/ui/ui_panels.c
 	src/vendor_lock.c
+	src/autostart.c
 )
 
 target_include_directories(better-rgb PRIVATE resources src src/effects)
