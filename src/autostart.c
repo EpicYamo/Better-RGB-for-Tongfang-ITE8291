@@ -4,8 +4,6 @@
 
 # define TASK_NAME	L"Better RGB by TheYamo"
 
-HWND	g_btnAutostart = NULL;
-
 static int	run_schtasks(const wchar_t *args)
 {
 	wchar_t				cmd_line[1200];

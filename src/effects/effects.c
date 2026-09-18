@@ -7,7 +7,6 @@
 #include "config.h"
 #include "log.h"
 
-HWND	g_hStatus = NULL;
 volatile LONG	g_brightness = 100;
 
 static LPTHREAD_START_ROUTINE	mode_to_fn(int mode)
