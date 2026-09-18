@@ -37,7 +37,7 @@ add_executable(better-rgb WIN32
 	src/ui/ui_window.c
 )
 
-target_include_directories(better-rgb PRIVATE resources src src/effects)
+target_include_directories(better-rgb PRIVATE resources src src/effects src/ui)
 
 target_compile_definitions(better-rgb PRIVATE UNICODE _UNICODE _WIN32_WINNT=0x0A00)
 
@@ -45,4 +45,5 @@ target_link_libraries(better-rgb PRIVATE
 	hidapi::hidapi
 	setupapi
 	hid
+	comctl32
 )

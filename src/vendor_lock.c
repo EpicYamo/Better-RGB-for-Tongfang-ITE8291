@@ -10,8 +10,6 @@
 
 # define VENDOR_SERVICE_DEFAULT	"GCUBridge"
 
-int	g_startupLaunch = 0;
-
 int	is_elevated(void)
 {
 	HANDLE			tok;
