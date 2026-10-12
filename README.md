@@ -4,11 +4,11 @@ A custom per-key RGB control application for Tongfang/ITE8291 based gaming lapto
 
 Built from scratch in C, using a fully reverse-engineered USB HID protocol, no vendor SDK, no leaked source code, just a USB sniffer, patience, and a lot of trial and error.
 
-Current version: **2.2**.
+Current version: **2.2**
 
 ---
 
-> **Note:** This repository is a from-scratch, behavior-preserving rewrite of the original single-file `better_rgb.c` (v2.2, ~2500 lines). Every effect, feature, and code path here works identically to the original nothing about *what* the app does or *how* it behaves has changed. The code has simply been reorganized into separate modules (`device`, `config`, `effects/`, `ui/`, `vendor_lock`, `autostart`, …) purely to make the codebase easier to read, understand, and extend with future additions.
+> **Note:** This repository is a from-scratch, behavior-preserving rewrite of the original single-file `better_rgb.c` (v2.2, ~2500 lines). Every effect, feature, and code path here works identically to the original nothing about *what* the app does or *how* it behaves has changed. The code has simply been reorganized into separate modules (`device`, `config`, `effects/`, `ui/`, `vendor_lock`, `autostart`, …) purely to make the codebase easier to read, understand, and extend with future additions. The Original Old Repository is(which wont have updates anymore): https://github.com/EpicYamo/Better_RGB_Old-Repo
 
 ---
 
